@@ -51,6 +51,16 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>TE_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>TE Description</label>
+        <length>240</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>TEC Obj</label>
     <listViews>
         <fullName>All</fullName>
