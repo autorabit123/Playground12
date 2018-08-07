@@ -3,12 +3,29 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Object_AutoRabit__c.Object_AutoRabit_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TEC_Obj__c.TE_Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Object_AutoRabit__c-Object_AutoRabit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TEC_Obj__c-TEC Obj Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Object_AutoRabit__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
