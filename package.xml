@@ -2,10 +2,12 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>40.0</version>
     <types>
+        <members>Object_AutoRabit__c.Object_AutoRabit_field__c</members>
         <members>TECO__c.TEC_Obj__c</members>
         <name>CustomField</name>
     </types>
     <types>
+        <members>Object_AutoRabit__c</members>
         <members>TECO__c</members>
         <members>TEC_Obj__c</members>
         <name>CustomObject</name>
@@ -15,6 +17,7 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Object_AutoRabit__c-Object_AutoRabit Layout</members>
         <members>TECO__c-TECO Layout</members>
         <members>TEC_Obj__c-TEC Obj Layout</members>
         <name>Layout</name>
